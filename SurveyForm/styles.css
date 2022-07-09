@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    color: white;
+}
+
+
+header {
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.container {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 300px 5px  rgba(0, 0, 0, 0.9);
+    border: 1px solid gray;
+}
+
+#survey-form {
+    margin: 20px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 40px; 
+}
+
+fieldset {
+    border: none;
+}
+
+.first-section input, .second-section select, .fourth-section select {
+    width: 100%;
+}
+
+.first-section label {
+    padding-left: 4px;
+}
+
+#survey-form input, select {
+    height: 35px;
+    border-radius: 5px;
+}
+
+.second-section, .third-section, .fourth-section, .fifth-section ,.sixth-section {
+    margin-top: 15px;
+}
+
+.fifth-section input, .third-section input {
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+
+.sixth-section textarea {
+    height: 130px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.seventh-section #submit {
+    background-color: #37af65;
+    width: 100%;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+}
